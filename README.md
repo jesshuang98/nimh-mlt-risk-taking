@@ -4,7 +4,7 @@
 - Statistical Goal: Create a statistical test to detect if mood belongs in the Markov blanket of risk-taking behavior
 - Computational Goal: Explore the data sets, build task-specific features, build features that encode competing scientific hypotheses about emotional valence and risk-taking, examine the stability of features over varying regularization and data resampling, build logisitc regressions and neural networks and interpret their coefficients
 - [Full Thesis](https://drive.google.com/file/d/1rFG2a6AN9RBRsbDSq0blgwnVahAHY399/view?usp=sharing): Play it Safe or Take a Risk? Computational Modeling & Statistical Inference for the Effect of Emotional Valence on Risk-Taking
-- IPython Notebook of All User-Friendly Updated Code: [all_code_best_version.ipynb](https://github.com/jesshuang98/nimh-mlt-risk-taking/blob/main/all_code_best_version.ipynb)
+- IPython Notebook of All User-Friendly Updated Code: [all_code_best_version.ipynb](https://nbviewer.org/github/jesshuang98/nimh-mlt-risk-taking/blob/main/all_code_best_version.ipynb#per-trial)
 
 # Subjects:
 
