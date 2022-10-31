@@ -42,18 +42,7 @@
 
 ## [Picking Number of Most Stable Features](https://nbviewer.org/github/jesshuang98/nimh-mlt-risk-taking/blob/main/all_code_best_version.ipynb#Picking-Number-of-Most-Stable-Features)
 - Start: ranking of indices of most stable features
-- End: graph of LOOCV accuracy of models trained on 0 features, 1 top most stable feature, top 2 most stable features, top 3 most stable features, ..., all the way to 45 features (9 main features + 36 interactions). You can pick a sufficient number of features by seeing which # of features achieves the global maximum LOOCV accuracy
-- example: you can go back and visualize stability and regularization plots for only these features by using running the following commands in lr_stab2_features.py to use NFEATS:
-  - ind_a = np.load("areas_areas_indices_" + ET + ".npy")
-  - ind_m = np.load("areas_maxes_indices_" + ET + ".npy")
-  - print ind_a
-  - print ind_m
-  - l = ind_a[:NFEATS]
-  - print len(l)
-  - stabgraphsavefeat(x, y, l)
-  - reggraphsavefeat(x, y, l)
-
-
+- End: graph of leave one (subject) out cross-validation accuracy of a model
 
 # Modeling:
 
